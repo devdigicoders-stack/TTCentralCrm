@@ -14,7 +14,7 @@ export default function App() {
       id: 'super-admin',
       title: 'Super Admin',
       description: 'Super User Panel with full system permissions to manage settings, staff, and view analytics.',
-      url: 'https://crm-super-admin-panel.vercel.app/',
+      url: 'https://admin.techcrm.cc',
       icon: <FaShieldAlt />,
       color: 'var(--color-superadmin)'
     },
@@ -22,7 +22,7 @@ export default function App() {
       id: 'admin',
       title: 'Admin',
       description: 'General Administration Panel to manage leads, view regional staff records, and handle configurations.',
-      url: 'https://crm-super-admin-panel.vercel.app/',
+      url: 'https://admin.techcrm.cc',
       icon: <FaUserCog />,
       color: 'var(--color-admin)'
     },
@@ -30,7 +30,7 @@ export default function App() {
       id: 'accountant',
       title: 'Accountant',
       description: 'Financial accounting dashboard to manage lead payments, billing logs, and invoice verifications.',
-      url: 'https://crm-accountant-panel.vercel.app/',
+      url: 'https://accountant.techcrm.cc',
       icon: <FaFileInvoiceDollar />,
       color: 'var(--color-accountant)'
     },
@@ -38,7 +38,7 @@ export default function App() {
       id: 'installation',
       title: 'Installation',
       description: 'Logistics and technician workspace to assign tasks, update installations status, and track equipment.',
-      url: 'https://crm-installation-panel.vercel.app/',
+      url: 'https://installation.techcrm.cc',
       icon: <FaTools />,
       color: 'var(--color-installation)'
     },
@@ -46,7 +46,7 @@ export default function App() {
       id: 'sales',
       title: 'Sales representative',
       description: 'Representative workbench to manage allocated hot leads, schedule follow-ups, and log deals closing.',
-      url: 'https://crm-sales-panel.vercel.app/',
+      url: 'https://sales.techcrm.cc',
       icon: <FaChartLine />,
       color: 'var(--color-sales)'
     },
@@ -54,7 +54,7 @@ export default function App() {
       id: 'crm',
       title: 'CRM Support',
       description: 'Calling team agent space for primary caller outreach, customer support requests, and cold inquiries.',
-      url: 'https://crm-crm-panel.vercel.app/',
+      url: 'https://crm.techcrm.cc',
       icon: <FaHeadset />,
       color: 'var(--color-crm)'
     }
