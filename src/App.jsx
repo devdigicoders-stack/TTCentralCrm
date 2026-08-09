@@ -5,6 +5,7 @@ import {
   FaTools, 
   FaChartLine, 
   FaHeadset,
+  FaBuilding,
   FaExternalLinkAlt 
 } from 'react-icons/fa';
 
@@ -25,6 +26,14 @@ export default function App() {
       url: 'https://admin.techcrm.cc',
       icon: <FaUserCog />,
       color: 'var(--color-admin)'
+    },
+    {
+      id: 'branch',
+      title: 'Branch Panel',
+      description: 'Branch office administration dashboard to manage branch leads, operations, and local staff.',
+      url: 'https://branch.techcrm.cc/login',
+      icon: <FaBuilding />,
+      color: 'var(--color-branch)'
     },
     {
       id: 'accountant',
