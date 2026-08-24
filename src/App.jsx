@@ -29,7 +29,7 @@ export default function App() {
     },
     {
       id: 'branch',
-      title: 'Branch Panel',
+      title: 'Demo & Sales Team Lead',
       description: 'Branch office administration dashboard to manage branch leads, operations, and local staff.',
       url: 'https://branch.techcrm.cc/login',
       icon: <FaBuilding />,
