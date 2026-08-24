@@ -6,6 +6,7 @@ import {
   FaChartLine, 
   FaHeadset,
   FaBuilding,
+  FaBoxes,
   FaExternalLinkAlt 
 } from 'react-icons/fa';
 
@@ -66,6 +67,14 @@ export default function App() {
       url: 'https://crm.techcrm.cc',
       icon: <FaHeadset />,
       color: 'var(--color-crm)'
+    },
+    {
+      id: 'stock',
+      title: 'Stock Management',
+      description: 'Inventory and stock management panel to track products, manage stock levels, and monitor movements.',
+      url: 'https://stock.techcrm.cc',
+      icon: <FaBoxes />,
+      color: 'var(--color-stock)'
     }
   ];
 
